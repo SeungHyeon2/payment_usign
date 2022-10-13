@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* reset */
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, fieldset, form, legend, table, caption, tbody, tfoot, thead, tr, th, td, input, select, textarea{margin:0; padding:0;}
+h1, h2, h3, h4, h5, h6{font-size:100%;}
+img, fieldset{border:none;}
+table{border-collapse:collapse;}
+ul, ol, li{list-style:none;}
+address, em{font-style:normal;}
+li img, object{vertical-align:top;}
+input, select, textarea, form img{vertical-align:middle;}
+input{#margin:-1px 0;}/* Hack(ie6-7 input-margin 제어) */
+/* base */
+/* font */
+body{color:#333; font:75% "나눔고딕, NanumGothic, Nanum Gothic"; }
+
+body,input,textarea,select,button,table{font-family:NanumBarunGothic;font-size:12px;color:#181818}
+
+input, select, textarea{color:#333; font:100% "돋움", Dotum, "굴림", Gulim, Verdana, Arial, sans-serif;}
+/* anchor */
+a{color:#333; text-decoration:none;}
+/* skip */
+.skip, hr, legend, caption{position:absolute; visibility:hidden; width:0; height:0; font-size:0; line-height:0; left:-5000px; overflow:hidden;}
+caption{position:static;}
+/* skipNavi*/ 
+#skipNavi{position:relative;}
+#skipNavi a{display:block; position:absolute; width:0; height:1px; color:#666; font-size:0; overflow:hidden;}
+#skipNavi a:focus, #skipNavi a:active{width:auto; height:auto; font-size:1em; font-weight:bold;}
+
+/* Hangeul NanumBarunGothic Font 
+@import url("http://fonts.googleapis.com/earlyaccess/nanumgothic.css");
+*/ 
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./font/NanumGothic-Regular.eot');
+  src: url('./font/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+       url('./font/NanumGothic-Regular.woff2') format('woff2'),
+       url('./font/NanumGothic-Regular.woff') format('woff'),
+       url('./font/NanumGothic-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./font/NanumGothic-Bold.eot');
+  src: url('./font/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+       url('./font/NanumGothic-Bold.woff2') format('woff2'),
+       url('./font/NanumGothic-Bold.woff') format('woff'),
+       url('./font/NanumGothic-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./font/NanumGothic-ExtraBold.eot');
+  src: url('./font/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('./font/NanumGothic-ExtraBold.woff2') format('woff2'),
+       url('./font/NanumGothic-ExtraBold.woff') format('woff'),
+       url('./font/NanumGothic-ExtraBold.ttf') format('truetype');
+}
+
+
+* {font-family:'나눔고딕', NanumGothic, 'Nanum Gothic' }
+a {font-family:'나눔고딕', NanumGothic, 'Nanum Gothic' }
+
+
+@font-face {
+font-family: "Nanum Gothic";
+src: url('./font/NanumGothic.eot');
+src: local('?')
+, url('./font/NanumGothic.eot?#iefix') format('embedded-opentype')
+, url('./font/NanumGothic.woff') format('woff')
+, url('./font/NanumGothic.ttf') format('truetype'); /*191210 해당파일 font 추가 하였습니다.*/
+font-weight: normal;
+font-style: normal;

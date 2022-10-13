@@ -1,0 +1,13 @@
+@charset "utf-8";
+@import url('font.css'); /* 기본설정 */
+
+.subContentswrapper{ width:950px; margin:0 auto; position:relative;  margin-top:2px; }
+
+/* footer */
+.footerWrapper{ background-color:#fafafa; height:110px; margin-top:30px; }
+#footer{ width:1040px; margin:0 auto; padding-top:40px; position: relative; }
+#footer ul{ position:absolute; top: 20px; left:45px; margin:0; padding: 0; }
+#footer ul li{ float: left; padding-left:23px; background:url(../../images/main_intro/footer_list_bg.png) no-repeat 10px 5px; }
+#footer ul li.frist{ background:0; padding-left:0px; }
+address{ margin-top:10px; }
+#footer p{ margin-top:3px; margin-left:45px; }

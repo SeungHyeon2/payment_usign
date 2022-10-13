@@ -1,0 +1,44 @@
+a:link {color: #223661;text-decoration:none;}
+a:visited {color: #223661;text-decoration:none;}
+a:hover {color: #223661;text-decoration:underline;}
+a:active {color: #223661;text-decoration:none;}
+
+#table1
+{
+   border-color:  #223661;
+   color:#223661;
+   border: 1px solid;
+   width:800px;
+   font-family: Verdana;
+   font-size: 12px;
+}
+.header
+{
+   background-color:  #A0C9EB;
+   color:#223661;
+   height:24px;
+   font-weight:bold;
+   border-color: blue;
+   border: 1px solid;
+}
+.td
+{
+   border-color: gray;
+   padding:6px;
+   border: 1px solid;
+}
+
+.button
+{
+	background-color:transparent;
+ 	color:transparent; 
+ 	border:0; 
+ 	cursor:pointer;
+ }
+ 
+/* ÷������ ��ũ ��Ÿ�� * 2011-01-05 */
+.green_text{color:#00746b;}
+.green_text:link{color:#00746b; text-decoration:underline;}
+.green_text:visited{color:#00746b; text-decoration:underline;}
+.green_text:hover{color:#00746b; text-decoration:underline;}
+.green_text:active{color:#00746b; text-decoration:underline;}

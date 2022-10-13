@@ -1,0 +1,91 @@
+/* Reset */
+@charset "utf-8";
+html, body {height:100%;margin:0;padding:0;overflow:auto;font-family:'LGFontHaR', Dotum, Helvetica, Sans-serif;letter-spacing:-0.05px}
+* {margin:0;padding:0;}
+*:first-child+html{height:auto;margin:0;padding:0;overflow:auto;}
+body {*word-break:break-all;-ms-word-break:break-all;font-size:12px;color:#333}
+html, body, div, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, address, dl, dt, dd, ol, ul, li, img, fieldset, form, legend, table, caption, thead, tfoot, tbody, th, tr, td, input, select {margin:0;padding:0}
+h1, h2, h3, h4, h5, h6 {margin:0;padding:0;font-weight:normal}
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0}
+img, fieldset, iframe {border:0 none} 
+ul, ol, dl {list-style:none}
+i, em, address {font-style:normal}
+img {border:0}
+input, select, button {vertical-align:middle}
+label, button {cursor:pointer}
+hr {display:none}
+legend {*width:0}
+table {/* border-collapse:collapse;table-layout:fixed; */border-collapse:collapse;border-spacing:0}
+caption, th, td {text-align:left;font-weight:normal}
+caption {display:none}
+/* Common */
+.blind, legend {display:block;overflow:hidden;position:absolute;top:-1000em;left:0}
+:root legend {margin-top:-1px;font-size:0;line-height:0}
+.clearfix:after {content: ".";display: block;height: 0px;clear: both;visibility: hidden}
+.clearfix {display: inline-block}
+.clearfix {display: block}
+* html .clearfix {height: 1%} /* Hides from IE-mac */
+.clearfix {zoom:1} /*for IE 5.5-7*/
+
+#skipnav {
+	position: absolute;
+	left:-100%;
+	color: #fff;
+	background: #333;
+	font-size: 1.4em;
+}
+#skipnav:focus {
+	display: block;
+	position: static;
+	left: 0;
+	height: 1em;
+	padding:.5em 0 1em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.5;
+	vertical-align: middle;
+	outline: 1px dotted #f6f8fa;
+}
+
+@font-face {
+	font-family: 'LGFontHaR'; 
+	font-style: normal;
+	font-weight: 400; 
+	src: url(../../common/css/fonts/LGSmHaR.eot); 
+	src: local(※), url(../../common/css/fonts/LGSmHaR.eot?#iefix)format('embedded-opentype'), 
+	url(../../common/css/fonts/LGSmHaR.woff2)format('woff2'), 
+	url(../../common/css/fonts/LGSmHaR.woff)format('woff'), 
+	url(../../common/css/fonts/LGSmHaR.ttf)format('truetype'); 
+}
+
+@font-face {
+	font-family: 'LGFontHaL'; 
+	font-style: normal;
+	font-weight: 400; 
+	src: url(../../common/css/fonts/LGSmHaL.eot); 
+	src: local(※), url(../../common/css/fonts/LGSmHaL.eot?#iefix)format('embedded-opentype'), 
+	url(../../common/css/fonts/LGSmHaL.woff2)format('woff2'), 
+	url(../../common/css/fonts/LGSmHaL.woff)format('woff'), 
+	url(../../common/css/fonts/LGSmHaL.ttf)format('truetype'); 
+}
+
+@font-face {
+	font-family: 'LGFontHaB'; 
+	font-style: normal;
+	font-weight: 400; 
+	src: url(../../common/css/fonts/LGSmHaB.eot); 
+	src: local(※), url(../../common/css/fonts/LGSmHaB.eot?#iefix)format('embedded-opentype'), 
+	url(../../common/css/fonts/LGSmHaB.woff2)format('woff2'), 
+	url(../../common/css/fonts/LGSmHaB.woff)format('woff'), 
+	url(../../common/css/fonts/LGSmHaB.ttf)format('truetype'); 
+}
+@font-face {
+	font-family: 'LGFontHaSB'; 
+	font-style: normal;
+	font-weight: 400; 
+	src: url(../../common/css/fonts/LGSmHaSB.eot); 
+	src: local(※), url(../../common/css/fonts/LGSmHaSB.eot?#iefix)format('embedded-opentype'), 
+	url(../../common/css/fonts/LGSmHaSB.woff2)format('woff2'), 
+	url(../../common/css/fonts/LGSmHaSB.woff)format('woff'), 
+	url(../../common/css/fonts/LGSmHaSB.ttf)format('truetype'); 
+}
